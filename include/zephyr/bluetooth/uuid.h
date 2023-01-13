@@ -322,6 +322,15 @@ struct bt_uuid_128 {
 /**
  *  @brief Battery Service UUID value
  */
+#define BT_UUID_WSS_VAL 0x181d
+/**
+ *  @brief Weight Scale Service
+ */
+#define BT_UUID_WSS \
+	BT_UUID_DECLARE_16(BT_UUID_WSS_VAL)
+/**
+ *  @brief Battery Service UUID value
+ */
 #define BT_UUID_BAS_VAL 0x180f
 /**
  *  @brief Battery Service
@@ -917,6 +926,28 @@ struct bt_uuid_128 {
 /**
  *  @brief HRS Characteristic Body Sensor Location
  */
+
+//************* Custom Code **************************
+#define BT_UUID_WSS_FEATURE_VAL 0x2A9E
+/**
+ *  @brief WSS Feature UUID Value
+ */
+#define BT_UUID_WSS_FEATURE \
+	BT_UUID_DECLARE_16(BT_UUID_WSS_FEATURE_VAL)
+/**
+ *  @brief WSS Characteristic Feature
+ */
+#define BT_UUID_WSS_MEASUREMENT_VAL 0x2A9D
+/**
+ *  @brief WSS Measurement UUID Value
+ */
+#define BT_UUID_WSS_MEASUREMENT \
+	BT_UUID_DECLARE_16(BT_UUID_WSS_MEASUREMENT_VAL)
+/**
+ *  @brief WSS Characteristic Measurement
+ */
+
+//****************************************************
 #define BT_UUID_HRS_BODY_SENSOR_VAL 0x2a38
 /**
  *  @brief HRS Characteristic Control Point
